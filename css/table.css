@@ -1,0 +1,87 @@
+
+*{
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+    
+    .introduce_imgs {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      grid-gap: 10px ;
+    }
+    /*food*/
+    .food_header{
+      background-image: url("../image/mon-ngon-da-lat.jpg");
+      width: 100%;
+      height: 90vh;
+      margin-bottom: 30px;
+    }
+    .main_foods {
+      margin: 50px 20px 40px 0;
+      font-size: 18px;
+    }
+    .main_foods .main_food >p{
+      padding: 10px 0;
+      font-weight: bold;
+      font-style: italic;
+      text-align: 40px;
+      text-align: center;
+
+    }
+    .main_foods .main_food ol li .name_food{
+      padding: 10px 0 10px ;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    .main_foods .main_food ol li .food_img{
+      padding-bottom: 30px;
+      margin-left: 5rem;
+      transition:  transform ease-in 0.12s;
+    }
+    .main_foods .main_food ol li .food_img:hover{
+      transform: scale(1.3);
+    }
+    .main_foods .main_food ol li .food_text {
+      text-indent: 4rem;
+    }
+    .main_foods .main_food ol li .address_food >p{
+      font-weight: bold;
+      font-style: italic;
+    }
+    .main_foods .foods_right ul  p{
+      text-align: center;
+      font-weight: bold ;
+    }
+    .info_food p{
+      font-weight: bold;
+      font-size: 30px;
+
+
+    }
+
+
+  }   
+     
+
+
+
+
+
+ 
+  
+  

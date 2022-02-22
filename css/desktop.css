@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+    
+    .myheader{
+      background-image: url("../image/chup-hinh-da-lat-1536x1020.jpg");     
+    }
+   .introduce_imgs {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      grid-gap: 30px 30px ;
+      padding: 30px;
+  }   
+   .introduce_img1 {
+     text-align: center;
+     transition: transform linear 0.25s; 
+     margin-left: 15%;  
+   }
+   .introduce_img1:hover {
+    transform: scale(1.5)
+   }
+   .place_right ol li{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+  
+
+
+  }
